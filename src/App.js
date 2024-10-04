@@ -5,8 +5,8 @@ import RecipeForm from './components/RecipeForm';
 
 const App = () => {
   const [recipes, setRecipes] = useState([
-    { id: 1, title: 'Spaghetti', ingredients: 'Pasta, Tomato, Basil', instructions: 'Boil pasta...', cuisine: 'Italian', cookingTime: 30 },
-    { id: 2, title: 'Chicken Curry', ingredients: 'Chicken, Spices, Onion', instructions: 'Cook chicken...', cuisine: 'Indian', cookingTime: 45 },
+    { id: 1, title: 'Meggi', ingredients: 'wheat flour, palm oil, salt, wheat gluten, calcium carbonate, potassium chloride, sodium phosphate, potassium carbonate, sodium carbonate, guar gum', instructions: 'In a pan take 1.5 cup water and boil it then add MAGGI 2 min noodles and masala in boiling water and cook for 5 min. at low flame. On other side boil peas and potatoes together in a pressure cooker for 5 to 7 min. or 2-3 whistles.', cuisine: 'Italian', cookingTime: 2 },
+    { id: 2, title: 'Passta', ingredients: 'semolina, durum flour, farina flour, corn, rice, wheat, or any combination of these, with water', instructions: 'Boil 6 cups water in a large pot or a deep pan and bring it to boil over medium flame. When it comes to rolling boil, add dried noodles, 1/2 tablespoon oil and 1/2 teaspoon salt. Boil until noodles are soft, it will take around 4-5 minutes. Stir occasionally in between.', cuisine: 'Indian', cookingTime: 30 },
   ]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [isEditing, setIsEditing] = useState(false);
